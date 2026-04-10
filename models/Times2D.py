@@ -127,7 +127,7 @@ class Times2DBackbone(nn.Module):
         self.heatmap_to_pred = nn.Conv1d(in_channels=self.seq_len, out_channels=self.pred_len, kernel_size=1).to(self.device)
         
     def forward(self, x):  # x: [B, N, T]
-        print(f"Forward input shape: {x.shape}")
+        # print(f"Forward input shape: {x.shape}")
         x = x.to(self.device)
         B, N, T = x.size()
         x = x.permute(0, 2, 1)  # [B, T, N]
