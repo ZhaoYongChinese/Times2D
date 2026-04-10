@@ -1,0 +1,23 @@
+data_provider
+    data_factory.py
+    data_loader.py
+    m4.py
+exp
+layers
+models
+scripts
+utils
+.gitignore
+run.py
+
+Times2D项目网址：
+https://github.com/Tims2D/Times2D.git
+
+Times2D的核心：
+把一维时间序列转成二维图像，捕捉复杂的时间变化模式
+
+Times2D的结构：
+三个核心构件
+PDB，周期性分解模块，捕捉短期与长期的依赖关系
+FSDH，一阶与二阶导数热力图，突出数据中的剧烈变化与转折点
+AFB，聚合预测模块，整合PDB和FSDH的输出
