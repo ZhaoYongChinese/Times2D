@@ -1,0 +1,2 @@
+# M4数据集
+sh ./scripts/Times2D/ShortTerm/M4.sh

@@ -1,0 +1,3 @@
+long_term_forecast_exchange_test_Times2D_exchange_rate_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0  
+mse:0.08212868124246597, mae:0.19821316003799438, rse:0.2178565263748169
+

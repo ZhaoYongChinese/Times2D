@@ -1,0 +1,1010 @@
+python run.py --task_name long_term_forecast --is_training 1 --model_id exchange_test --model Times2D --data exchange_rate --root_path ./data/exchange_rate/ --data_path exchange_rate.csv --seq_len 96 --label_len 48 --pred_len 96 --enc_in 8 --dec_in 8 --c_out 8 --d_model 64 --d_ff 64 --e_layers 2 --batch_size 32 --learning_rate 0.0001 --freq h --features M --period_list 24 12 --patch_len 16 16 --use_gpu False
+
+------------------------------------------------
+Epoch: 83, Steps: 1280 | Train Loss: 0.0739950 Vali Loss: 0.1472182 Test Loss: 0.1043134
+EarlyStopping counter: 81 out of 100
+Updating learning rate to 2.1847450052839257e-08
+        iters: 100, epoch: 84 | loss: 0.0732832
+        speed: 2.3075s/iter; left time: 49981.9164s
+        iters: 200, epoch: 84 | loss: 0.0512317
+        speed: 0.4349s/iter; left time: 9376.3301s
+        iters: 300, epoch: 84 | loss: 0.0678733
+        speed: 0.4214s/iter; left time: 9044.2038s
+        iters: 400, epoch: 84 | loss: 0.0936178
+        speed: 0.4361s/iter; left time: 9315.2907s
+        iters: 500, epoch: 84 | loss: 0.0643226
+        speed: 0.4328s/iter; left time: 9202.0819s
+        iters: 600, epoch: 84 | loss: 0.0704460
+        speed: 0.4204s/iter; left time: 8896.7115s
+        iters: 700, epoch: 84 | loss: 0.0570818
+        speed: 0.4394s/iter; left time: 9253.6007s
+        iters: 800, epoch: 84 | loss: 0.0723162
+        speed: 0.4466s/iter; left time: 9362.1115s
+        iters: 900, epoch: 84 | loss: 0.0711034
+        speed: 0.5116s/iter; left time: 10672.2651s
+        iters: 1000, epoch: 84 | loss: 0.0603684
+        speed: 0.4958s/iter; left time: 10293.2123s
+        iters: 1100, epoch: 84 | loss: 0.0576548
+        speed: 0.4707s/iter; left time: 9725.6187s
+        iters: 1200, epoch: 84 | loss: 0.0713603
+        speed: 0.6330s/iter; left time: 13015.4267s
+Epoch: 84 cost time: 608.9769425392151
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.090948 s  ( 21.0%)
+Forward pass:       0.139386 s  ( 32.1%)
+Backward+Optimizer: 0.203554 s  ( 46.9%)
+------------------------------------------------
+Epoch: 84, Steps: 1280 | Train Loss: 0.0748564 Vali Loss: 0.1472005 Test Loss: 0.1032159
+EarlyStopping counter: 82 out of 100
+Updating learning rate to 1.9662705047555332e-08
+        iters: 100, epoch: 85 | loss: 0.0789275
+        speed: 2.2390s/iter; left time: 45633.0321s
+        iters: 200, epoch: 85 | loss: 0.0615954
+        speed: 0.3814s/iter; left time: 7735.2970s
+        iters: 300, epoch: 85 | loss: 0.0550604
+        speed: 0.5642s/iter; left time: 11386.9605s
+        iters: 400, epoch: 85 | loss: 0.0934391
+        speed: 0.3948s/iter; left time: 7927.1038s
+        iters: 500, epoch: 85 | loss: 0.0883733
+        speed: 0.3978s/iter; left time: 7949.2571s
+        iters: 600, epoch: 85 | loss: 0.0709674
+        speed: 0.3989s/iter; left time: 7930.6671s
+        iters: 700, epoch: 85 | loss: 0.0720285
+        speed: 0.3875s/iter; left time: 7665.5721s
+        iters: 800, epoch: 85 | loss: 0.0605264
+        speed: 0.3730s/iter; left time: 7340.1493s
+        iters: 900, epoch: 85 | loss: 0.0797839
+        speed: 0.5248s/iter; left time: 10276.7169s
+        iters: 1000, epoch: 85 | loss: 0.0888345
+        speed: 0.4648s/iter; left time: 9054.2390s
+        iters: 1100, epoch: 85 | loss: 0.0583758
+        speed: 0.4051s/iter; left time: 7851.1980s
+        iters: 1200, epoch: 85 | loss: 0.0771988
+        speed: 0.3956s/iter; left time: 7628.0623s
+Epoch: 85 cost time: 566.0682191848755
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091256 s  ( 21.0%)
+Forward pass:       0.139808 s  ( 32.1%)
+Backward+Optimizer: 0.204056 s  ( 46.9%)
+------------------------------------------------
+Epoch: 85, Steps: 1280 | Train Loss: 0.0742260 Vali Loss: 0.1478985 Test Loss: 0.1035584
+EarlyStopping counter: 83 out of 100
+Updating learning rate to 1.7696434542799797e-08
+        iters: 100, epoch: 86 | loss: 0.0905799
+        speed: 2.0556s/iter; left time: 39263.7916s
+        iters: 200, epoch: 86 | loss: 0.0680448
+        speed: 0.3928s/iter; left time: 7464.1956s
+        iters: 300, epoch: 86 | loss: 0.0633730
+        speed: 0.3911s/iter; left time: 7393.0676s
+        iters: 400, epoch: 86 | loss: 0.0630064
+        speed: 0.3926s/iter; left time: 7381.5153s
+        iters: 500, epoch: 86 | loss: 0.0742301
+        speed: 0.3915s/iter; left time: 7321.3662s
+        iters: 600, epoch: 86 | loss: 0.0916126
+        speed: 0.3969s/iter; left time: 7382.5793s
+        iters: 700, epoch: 86 | loss: 0.0998284
+        speed: 0.3937s/iter; left time: 7282.9882s
+        iters: 800, epoch: 86 | loss: 0.0826084
+        speed: 0.3905s/iter; left time: 7185.1921s
+        iters: 900, epoch: 86 | loss: 0.0643626
+        speed: 0.3936s/iter; left time: 7202.9537s
+        iters: 1000, epoch: 86 | loss: 0.0899283
+        speed: 0.3958s/iter; left time: 7203.2083s
+        iters: 1100, epoch: 86 | loss: 0.0733804
+        speed: 0.3438s/iter; left time: 6223.8635s
+        iters: 1200, epoch: 86 | loss: 0.0713334
+        speed: 0.3951s/iter; left time: 7112.4503s
+Epoch: 86 cost time: 514.085090637207
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091426 s  ( 21.0%)
+Forward pass:       0.140066 s  ( 32.1%)
+Backward+Optimizer: 0.204278 s  ( 46.9%)
+------------------------------------------------
+Epoch: 86, Steps: 1280 | Train Loss: 0.0746318 Vali Loss: 0.1464860 Test Loss: 0.1037344
+EarlyStopping counter: 84 out of 100
+Updating learning rate to 1.5926791088519817e-08
+        iters: 100, epoch: 87 | loss: 0.0617983
+        speed: 1.9194s/iter; left time: 34205.2358s
+        iters: 200, epoch: 87 | loss: 0.0702240
+        speed: 0.3680s/iter; left time: 6521.6992s
+        iters: 300, epoch: 87 | loss: 0.0862143
+        speed: 0.3697s/iter; left time: 6514.0527s
+        iters: 400, epoch: 87 | loss: 0.0694222
+        speed: 0.3708s/iter; left time: 6496.0130s
+        iters: 500, epoch: 87 | loss: 0.0448035
+        speed: 0.3699s/iter; left time: 6443.9165s
+        iters: 600, epoch: 87 | loss: 0.1196663
+        speed: 0.3686s/iter; left time: 6383.9150s
+        iters: 700, epoch: 87 | loss: 0.0619932
+        speed: 0.3686s/iter; left time: 6346.8646s
+        iters: 800, epoch: 87 | loss: 0.0617364
+        speed: 0.3710s/iter; left time: 6351.7333s
+        iters: 900, epoch: 87 | loss: 0.0786500
+        speed: 0.3751s/iter; left time: 6383.9352s
+        iters: 1000, epoch: 87 | loss: 0.0866983
+        speed: 0.3691s/iter; left time: 6245.3547s
+        iters: 1100, epoch: 87 | loss: 0.0740393
+        speed: 0.3699s/iter; left time: 6222.7157s
+        iters: 1200, epoch: 87 | loss: 0.0788839
+        speed: 0.3696s/iter; left time: 6179.3550s
+Epoch: 87 cost time: 489.9890537261963
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091515 s  ( 21.0%)
+Forward pass:       0.140207 s  ( 32.1%)
+Backward+Optimizer: 0.204398 s  ( 46.9%)
+------------------------------------------------
+Epoch: 87, Steps: 1280 | Train Loss: 0.0744815 Vali Loss: 0.1472213 Test Loss: 0.1032721
+EarlyStopping counter: 85 out of 100
+Updating learning rate to 1.4334111979667836e-08
+        iters: 100, epoch: 88 | loss: 0.0737755
+        speed: 1.9186s/iter; left time: 31735.4187s
+        iters: 200, epoch: 88 | loss: 0.0637220
+        speed: 0.3688s/iter; left time: 6063.7077s
+        iters: 300, epoch: 88 | loss: 0.0666079
+        speed: 0.3710s/iter; left time: 6062.1630s
+        iters: 400, epoch: 88 | loss: 0.0769159
+        speed: 0.3691s/iter; left time: 5994.6287s
+        iters: 500, epoch: 88 | loss: 0.0666002
+        speed: 0.3690s/iter; left time: 5956.5512s
+        iters: 600, epoch: 88 | loss: 0.0552506
+        speed: 0.3685s/iter; left time: 5910.8997s
+        iters: 700, epoch: 88 | loss: 0.0647394
+        speed: 0.3682s/iter; left time: 5869.7292s
+        iters: 800, epoch: 88 | loss: 0.0845487
+        speed: 0.3685s/iter; left time: 5837.1675s
+        iters: 900, epoch: 88 | loss: 0.0620986
+        speed: 0.3680s/iter; left time: 5792.4535s
+        iters: 1000, epoch: 88 | loss: 0.0890746
+        speed: 0.3686s/iter; left time: 5764.9057s
+        iters: 1100, epoch: 88 | loss: 0.1151161
+        speed: 0.3689s/iter; left time: 5732.4643s
+        iters: 1200, epoch: 88 | loss: 0.0596918
+        speed: 0.3686s/iter; left time: 5692.1597s
+Epoch: 88 cost time: 488.7987132072449
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091599 s  ( 21.0%)
+Forward pass:       0.140340 s  ( 32.2%)
+Backward+Optimizer: 0.204508 s  ( 46.9%)
+------------------------------------------------
+Epoch: 88, Steps: 1280 | Train Loss: 0.0741852 Vali Loss: 0.1468475 Test Loss: 0.1041685
+EarlyStopping counter: 86 out of 100
+Updating learning rate to 1.2900700781701054e-08
+        iters: 100, epoch: 89 | loss: 0.1252806
+        speed: 1.9204s/iter; left time: 29307.4403s
+        iters: 200, epoch: 89 | loss: 0.0577538
+        speed: 0.3687s/iter; left time: 5589.3745s
+        iters: 300, epoch: 89 | loss: 0.0550331
+        speed: 0.3684s/iter; left time: 5548.2757s
+        iters: 400, epoch: 89 | loss: 0.0592242
+        speed: 0.3690s/iter; left time: 5521.2620s
+        iters: 500, epoch: 89 | loss: 0.0586992
+        speed: 0.3688s/iter; left time: 5481.0894s
+        iters: 600, epoch: 89 | loss: 0.0781247
+        speed: 0.3685s/iter; left time: 5439.1289s
+        iters: 700, epoch: 89 | loss: 0.0741778
+        speed: 0.3688s/iter; left time: 5407.3789s
+        iters: 800, epoch: 89 | loss: 0.0586489
+        speed: 0.3684s/iter; left time: 5364.0339s
+        iters: 900, epoch: 89 | loss: 0.0627724
+        speed: 0.3681s/iter; left time: 5322.8565s
+        iters: 1000, epoch: 89 | loss: 0.0558331
+        speed: 0.3684s/iter; left time: 5290.6123s
+        iters: 1100, epoch: 89 | loss: 0.0611910
+        speed: 0.3686s/iter; left time: 5256.8241s
+        iters: 1200, epoch: 89 | loss: 0.0784553
+        speed: 0.3694s/iter; left time: 5230.8532s
+Epoch: 89 cost time: 488.2752330303192
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091684 s  ( 21.0%)
+Forward pass:       0.140470 s  ( 32.2%)
+Backward+Optimizer: 0.204615 s  ( 46.8%)
+------------------------------------------------
+Epoch: 89, Steps: 1280 | Train Loss: 0.0739305 Vali Loss: 0.1482591 Test Loss: 0.1038428
+EarlyStopping counter: 87 out of 100
+Updating learning rate to 1.161063070353095e-08
+        iters: 100, epoch: 90 | loss: 0.1160157
+        speed: 1.9123s/iter; left time: 26735.1749s
+        iters: 200, epoch: 90 | loss: 0.0640875
+        speed: 0.3707s/iter; left time: 5145.1531s
+        iters: 300, epoch: 90 | loss: 0.0946632
+        speed: 0.3703s/iter; left time: 5102.5672s
+        iters: 400, epoch: 90 | loss: 0.0734206
+        speed: 0.3699s/iter; left time: 5060.8503s
+        iters: 500, epoch: 90 | loss: 0.0844131
+        speed: 0.3699s/iter; left time: 5023.2061s
+        iters: 600, epoch: 90 | loss: 0.0827611
+        speed: 0.3689s/iter; left time: 4973.6677s
+        iters: 700, epoch: 90 | loss: 0.0793910
+        speed: 0.3687s/iter; left time: 4933.5476s
+        iters: 800, epoch: 90 | loss: 0.0751771
+        speed: 0.3680s/iter; left time: 4887.1294s
+        iters: 900, epoch: 90 | loss: 0.0648962
+        speed: 0.3764s/iter; left time: 4961.0966s
+        iters: 1000, epoch: 90 | loss: 0.0568416
+        speed: 0.3692s/iter; left time: 4830.0931s
+        iters: 1100, epoch: 90 | loss: 0.0736739
+        speed: 0.3681s/iter; left time: 4777.7792s
+        iters: 1200, epoch: 90 | loss: 0.0855947
+        speed: 0.3683s/iter; left time: 4744.3433s
+Epoch: 90 cost time: 492.1993958950043
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091760 s  ( 21.0%)
+Forward pass:       0.140609 s  ( 32.2%)
+Backward+Optimizer: 0.204738 s  ( 46.8%)
+------------------------------------------------
+Epoch: 90, Steps: 1280 | Train Loss: 0.0744266 Vali Loss: 0.1478480 Test Loss: 0.1036265
+EarlyStopping counter: 88 out of 100
+Updating learning rate to 1.0449567633177854e-08
+        iters: 100, epoch: 91 | loss: 0.0698679
+        speed: 1.9467s/iter; left time: 24725.5439s
+        iters: 200, epoch: 91 | loss: 0.0631165
+        speed: 0.3700s/iter; left time: 4662.5034s
+        iters: 300, epoch: 91 | loss: 0.0595482
+        speed: 0.3719s/iter; left time: 4648.9126s
+        iters: 400, epoch: 91 | loss: 0.0713734
+        speed: 0.3696s/iter; left time: 4583.6122s
+        iters: 500, epoch: 91 | loss: 0.0842524
+        speed: 0.3684s/iter; left time: 4531.6260s
+        iters: 600, epoch: 91 | loss: 0.0807561
+        speed: 0.3681s/iter; left time: 4491.2496s
+        iters: 700, epoch: 91 | loss: 0.1343925
+        speed: 0.3684s/iter; left time: 4458.0683s
+        iters: 800, epoch: 91 | loss: 0.1422711
+        speed: 0.3685s/iter; left time: 4421.8505s
+        iters: 900, epoch: 91 | loss: 0.0674422
+        speed: 0.3695s/iter; left time: 4397.8482s
+        iters: 1000, epoch: 91 | loss: 0.0661424
+        speed: 0.3685s/iter; left time: 4348.5325s
+        iters: 1100, epoch: 91 | loss: 0.0702330
+        speed: 0.3688s/iter; left time: 4315.5615s
+        iters: 1200, epoch: 91 | loss: 0.0646232
+        speed: 0.3688s/iter; left time: 4278.3111s
+Epoch: 91 cost time: 488.8859589099884
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091846 s  ( 21.0%)
+Forward pass:       0.140735 s  ( 32.2%)
+Backward+Optimizer: 0.204842 s  ( 46.8%)
+------------------------------------------------
+Epoch: 91, Steps: 1280 | Train Loss: 0.0742404 Vali Loss: 0.1469869 Test Loss: 0.1036208
+EarlyStopping counter: 89 out of 100
+Updating learning rate to 9.404610869860069e-09
+        iters: 100, epoch: 92 | loss: 0.0661109
+        speed: 1.9260s/iter; left time: 21997.1450s
+        iters: 200, epoch: 92 | loss: 0.0545961
+        speed: 0.3685s/iter; left time: 4171.8884s
+        iters: 300, epoch: 92 | loss: 0.0768000
+        speed: 0.3677s/iter; left time: 4125.4601s
+        iters: 400, epoch: 92 | loss: 0.0831958
+        speed: 0.3693s/iter; left time: 4106.7796s
+        iters: 500, epoch: 92 | loss: 0.0520131
+        speed: 0.3683s/iter; left time: 4059.3847s
+        iters: 600, epoch: 92 | loss: 0.0904217
+        speed: 0.3681s/iter; left time: 4019.8578s
+        iters: 700, epoch: 92 | loss: 0.0607879
+        speed: 0.3680s/iter; left time: 3981.8720s
+        iters: 800, epoch: 92 | loss: 0.0872395
+        speed: 0.3679s/iter; left time: 3944.7039s
+        iters: 900, epoch: 92 | loss: 0.0572833
+        speed: 0.3686s/iter; left time: 3915.1323s
+        iters: 1000, epoch: 92 | loss: 0.0577394
+        speed: 0.3689s/iter; left time: 3881.3019s
+        iters: 1100, epoch: 92 | loss: 0.0566989
+        speed: 0.3682s/iter; left time: 3836.7563s
+        iters: 1200, epoch: 92 | loss: 0.0602435
+        speed: 0.3689s/iter; left time: 3807.8928s
+Epoch: 92 cost time: 488.04239892959595
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.091930 s  ( 21.0%)
+Forward pass:       0.140855 s  ( 32.2%)
+Backward+Optimizer: 0.204940 s  ( 46.8%)
+------------------------------------------------
+Epoch: 92, Steps: 1280 | Train Loss: 0.0738248 Vali Loss: 0.1475977 Test Loss: 0.1040167
+EarlyStopping counter: 90 out of 100
+Updating learning rate to 8.464149782874063e-09
+        iters: 100, epoch: 93 | loss: 0.0928163
+        speed: 1.9176s/iter; left time: 19446.1732s
+        iters: 200, epoch: 93 | loss: 0.0734038
+        speed: 0.3684s/iter; left time: 3699.2384s
+        iters: 300, epoch: 93 | loss: 0.0517445
+        speed: 0.3671s/iter; left time: 3649.8018s
+        iters: 400, epoch: 93 | loss: 0.0564108
+        speed: 0.3688s/iter; left time: 3628.9756s
+        iters: 500, epoch: 93 | loss: 0.0779256
+        speed: 0.3684s/iter; left time: 3588.6350s
+        iters: 600, epoch: 93 | loss: 0.0876753
+        speed: 0.3678s/iter; left time: 3545.5991s
+        iters: 700, epoch: 93 | loss: 0.0696928
+        speed: 0.3694s/iter; left time: 3524.0971s
+        iters: 800, epoch: 93 | loss: 0.0675659
+        speed: 0.3676s/iter; left time: 3470.7735s
+        iters: 900, epoch: 93 | loss: 0.0633325
+        speed: 0.3683s/iter; left time: 3440.6327s
+        iters: 1000, epoch: 93 | loss: 0.0730442
+        speed: 0.3684s/iter; left time: 3404.5222s
+        iters: 1100, epoch: 93 | loss: 0.0664755
+        speed: 0.3681s/iter; left time: 3364.8647s
+        iters: 1200, epoch: 93 | loss: 0.0708249
+        speed: 0.3694s/iter; left time: 3339.3977s
+Epoch: 93 cost time: 488.00679206848145
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092006 s  ( 21.0%)
+Forward pass:       0.140973 s  ( 32.2%)
+Backward+Optimizer: 0.205035 s  ( 46.8%)
+------------------------------------------------
+Epoch: 93, Steps: 1280 | Train Loss: 0.0745628 Vali Loss: 0.1461907 Test Loss: 0.1032078
+EarlyStopping counter: 91 out of 100
+Updating learning rate to 7.617734804586658e-09
+        iters: 100, epoch: 94 | loss: 0.1309703
+        speed: 1.9174s/iter; left time: 16989.7573s
+        iters: 200, epoch: 94 | loss: 0.0646990
+        speed: 0.3684s/iter; left time: 3227.6359s
+        iters: 300, epoch: 94 | loss: 0.0800828
+        speed: 0.3690s/iter; left time: 3196.3040s
+        iters: 400, epoch: 94 | loss: 0.0826102
+        speed: 0.3703s/iter; left time: 3170.1941s
+        iters: 500, epoch: 94 | loss: 0.0527149
+        speed: 0.3688s/iter; left time: 3120.2437s
+        iters: 600, epoch: 94 | loss: 0.0679660
+        speed: 0.3678s/iter; left time: 3074.8599s
+        iters: 700, epoch: 94 | loss: 0.0589547
+        speed: 0.3684s/iter; left time: 3043.3360s
+        iters: 800, epoch: 94 | loss: 0.0457637
+        speed: 0.3682s/iter; left time: 3004.6305s
+        iters: 900, epoch: 94 | loss: 0.0634832
+        speed: 0.3689s/iter; left time: 2973.4753s
+        iters: 1000, epoch: 94 | loss: 0.0773456
+        speed: 0.3677s/iter; left time: 2927.0692s
+        iters: 1100, epoch: 94 | loss: 0.1208458
+        speed: 0.3688s/iter; left time: 2899.0783s
+        iters: 1200, epoch: 94 | loss: 0.0954790
+        speed: 0.3684s/iter; left time: 2859.2464s
+Epoch: 94 cost time: 488.3757281303406
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092079 s  ( 21.0%)
+Forward pass:       0.141090 s  ( 32.2%)
+Backward+Optimizer: 0.205130 s  ( 46.8%)
+------------------------------------------------
+Epoch: 94, Steps: 1280 | Train Loss: 0.0740381 Vali Loss: 0.1468015 Test Loss: 0.1037064
+EarlyStopping counter: 92 out of 100
+Updating learning rate to 6.855961324127991e-09
+        iters: 100, epoch: 95 | loss: 0.0847853
+        speed: 1.9176s/iter; left time: 14537.1107s
+        iters: 200, epoch: 95 | loss: 0.0542645
+        speed: 0.3681s/iter; left time: 2753.7214s
+        iters: 300, epoch: 95 | loss: 0.0752855
+        speed: 0.3685s/iter; left time: 2719.7500s
+        iters: 400, epoch: 95 | loss: 0.0575133
+        speed: 0.3693s/iter; left time: 2689.0445s
+        iters: 500, epoch: 95 | loss: 0.0762926
+        speed: 0.3681s/iter; left time: 2643.1522s
+        iters: 600, epoch: 95 | loss: 0.0795876
+        speed: 0.3681s/iter; left time: 2606.1948s
+        iters: 700, epoch: 95 | loss: 0.0693166
+        speed: 0.3688s/iter; left time: 2574.4887s
+        iters: 800, epoch: 95 | loss: 0.0776854
+        speed: 0.3686s/iter; left time: 2536.2350s
+        iters: 900, epoch: 95 | loss: 0.0629574
+        speed: 0.3680s/iter; left time: 2495.4802s
+        iters: 1000, epoch: 95 | loss: 0.0609700
+        speed: 0.3686s/iter; left time: 2462.9147s
+        iters: 1100, epoch: 95 | loss: 0.1208211
+        speed: 0.3682s/iter; left time: 2422.9956s
+        iters: 1200, epoch: 95 | loss: 0.0639917
+        speed: 0.3683s/iter; left time: 2387.0530s
+Epoch: 95 cost time: 488.1355457305908
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092151 s  ( 21.0%)
+Forward pass:       0.141204 s  ( 32.2%)
+Backward+Optimizer: 0.205221 s  ( 46.8%)
+------------------------------------------------
+Epoch: 95, Steps: 1280 | Train Loss: 0.0742959 Vali Loss: 0.1467194 Test Loss: 0.1041589
+EarlyStopping counter: 93 out of 100
+Updating learning rate to 6.170365191715193e-09
+        iters: 100, epoch: 96 | loss: 0.0652942
+        speed: 1.9166s/iter; left time: 12076.5810s
+        iters: 200, epoch: 96 | loss: 0.0611549
+        speed: 0.3688s/iter; left time: 2286.6747s
+        iters: 300, epoch: 96 | loss: 0.0795897
+        speed: 0.3681s/iter; left time: 2245.7688s
+        iters: 400, epoch: 96 | loss: 0.0554915
+        speed: 0.3681s/iter; left time: 2208.9535s
+        iters: 500, epoch: 96 | loss: 0.0678726
+        speed: 0.3696s/iter; left time: 2181.0699s
+        iters: 600, epoch: 96 | loss: 0.0763505
+        speed: 0.3685s/iter; left time: 2137.6612s
+        iters: 700, epoch: 96 | loss: 0.0632029
+        speed: 0.3677s/iter; left time: 2096.4948s
+        iters: 800, epoch: 96 | loss: 0.0806451
+        speed: 0.3679s/iter; left time: 2060.7196s
+        iters: 900, epoch: 96 | loss: 0.0629895
+        speed: 0.3684s/iter; left time: 2026.7606s
+        iters: 1000, epoch: 96 | loss: 0.0710475
+        speed: 0.3681s/iter; left time: 1987.9185s
+        iters: 1100, epoch: 96 | loss: 0.0750319
+        speed: 0.3682s/iter; left time: 1951.8988s
+        iters: 1200, epoch: 96 | loss: 0.0699619
+        speed: 0.3684s/iter; left time: 1916.2063s
+Epoch: 96 cost time: 489.04781460762024
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092221 s  ( 21.0%)
+Forward pass:       0.141319 s  ( 32.2%)
+Backward+Optimizer: 0.205314 s  ( 46.8%)
+------------------------------------------------
+Epoch: 96, Steps: 1280 | Train Loss: 0.0739798 Vali Loss: 0.1459792 Test Loss: 0.1035483
+EarlyStopping counter: 94 out of 100
+Updating learning rate to 5.5533286725436726e-09
+        iters: 100, epoch: 97 | loss: 0.0968002
+        speed: 1.9331s/iter; left time: 9706.3048s
+        iters: 200, epoch: 97 | loss: 0.0521402
+        speed: 0.3682s/iter; left time: 1811.9984s
+        iters: 300, epoch: 97 | loss: 0.0700231
+        speed: 0.3701s/iter; left time: 1784.2279s
+        iters: 400, epoch: 97 | loss: 0.0658095
+        speed: 0.3680s/iter; left time: 1737.5356s
+        iters: 500, epoch: 97 | loss: 0.0599496
+        speed: 0.3699s/iter; left time: 1709.4393s
+        iters: 600, epoch: 97 | loss: 0.1004055
+        speed: 0.3682s/iter; left time: 1664.5883s
+        iters: 700, epoch: 97 | loss: 0.0640907
+        speed: 0.3682s/iter; left time: 1628.0155s
+        iters: 800, epoch: 97 | loss: 0.0782982
+        speed: 0.3677s/iter; left time: 1588.7647s
+        iters: 900, epoch: 97 | loss: 0.0852230
+        speed: 0.3682s/iter; left time: 1554.2895s
+        iters: 1000, epoch: 97 | loss: 0.0762811
+        speed: 0.3684s/iter; left time: 1518.3768s
+        iters: 1100, epoch: 97 | loss: 0.0634101
+        speed: 0.3674s/iter; left time: 1477.3132s
+        iters: 1200, epoch: 97 | loss: 0.0551797
+        speed: 0.3686s/iter; left time: 1445.2183s
+Epoch: 97 cost time: 488.0701231956482
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092295 s  ( 21.0%)
+Forward pass:       0.141428 s  ( 32.2%)
+Backward+Optimizer: 0.205401 s  ( 46.8%)
+------------------------------------------------
+Epoch: 97, Steps: 1280 | Train Loss: 0.0745995 Vali Loss: 0.1470603 Test Loss: 0.1035540
+EarlyStopping counter: 95 out of 100
+Updating learning rate to 4.997995805289306e-09
+        iters: 100, epoch: 98 | loss: 0.0849024
+        speed: 1.9168s/iter; left time: 7170.7497s
+        iters: 200, epoch: 98 | loss: 0.0707455
+        speed: 0.3688s/iter; left time: 1342.9252s
+        iters: 300, epoch: 98 | loss: 0.0508021
+        speed: 0.3690s/iter; left time: 1306.4760s
+        iters: 400, epoch: 98 | loss: 0.0548848
+        speed: 0.3689s/iter; left time: 1269.5505s
+        iters: 500, epoch: 98 | loss: 0.0558215
+        speed: 0.3696s/iter; left time: 1234.8952s
+        iters: 600, epoch: 98 | loss: 0.0791404
+        speed: 0.3699s/iter; left time: 1198.9377s
+        iters: 700, epoch: 98 | loss: 0.0862565
+        speed: 0.3688s/iter; left time: 1158.4200s
+        iters: 800, epoch: 98 | loss: 0.0973818
+        speed: 0.3684s/iter; left time: 1120.3570s
+        iters: 900, epoch: 98 | loss: 0.0600233
+        speed: 0.3685s/iter; left time: 1083.8969s
+        iters: 1000, epoch: 98 | loss: 0.0560614
+        speed: 0.3693s/iter; left time: 1049.0639s
+        iters: 1100, epoch: 98 | loss: 0.0897860
+        speed: 0.3684s/iter; left time: 1009.7575s
+        iters: 1200, epoch: 98 | loss: 0.0731261
+        speed: 0.3691s/iter; left time: 974.6755s
+Epoch: 98 cost time: 488.84271693229675
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092363 s  ( 21.0%)
+Forward pass:       0.141542 s  ( 32.2%)
+Backward+Optimizer: 0.205484 s  ( 46.8%)
+------------------------------------------------
+Epoch: 98, Steps: 1280 | Train Loss: 0.0741659 Vali Loss: 0.1479398 Test Loss: 0.1033897
+EarlyStopping counter: 96 out of 100
+Updating learning rate to 4.498196224760375e-09
+        iters: 100, epoch: 99 | loss: 0.0526422
+        speed: 1.9229s/iter; left time: 4732.3400s
+        iters: 200, epoch: 99 | loss: 0.1428113
+        speed: 0.3689s/iter; left time: 870.8868s
+        iters: 300, epoch: 99 | loss: 0.0574339
+        speed: 0.3692s/iter; left time: 834.7454s
+        iters: 400, epoch: 99 | loss: 0.0773037
+        speed: 0.3689s/iter; left time: 797.2737s
+        iters: 500, epoch: 99 | loss: 0.0601739
+        speed: 0.3703s/iter; left time: 763.2110s
+        iters: 600, epoch: 99 | loss: 0.0605063
+        speed: 0.3691s/iter; left time: 723.7977s
+        iters: 700, epoch: 99 | loss: 0.0836801
+        speed: 0.3695s/iter; left time: 687.6032s
+        iters: 800, epoch: 99 | loss: 0.0651183
+        speed: 0.3686s/iter; left time: 649.1573s
+        iters: 900, epoch: 99 | loss: 0.0679103
+        speed: 0.3687s/iter; left time: 612.3891s
+        iters: 1000, epoch: 99 | loss: 0.0869177
+        speed: 0.3686s/iter; left time: 575.3881s
+        iters: 1100, epoch: 99 | loss: 0.0602818
+        speed: 0.3695s/iter; left time: 539.8910s
+        iters: 1200, epoch: 99 | loss: 0.1414793
+        speed: 0.3688s/iter; left time: 501.9783s
+Epoch: 99 cost time: 489.2978575229645
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092432 s  ( 21.0%)
+Forward pass:       0.141656 s  ( 32.2%)
+Backward+Optimizer: 0.205566 s  ( 46.8%)
+------------------------------------------------
+Epoch: 99, Steps: 1280 | Train Loss: 0.0740578 Vali Loss: 0.1474751 Test Loss: 0.1036261
+EarlyStopping counter: 97 out of 100
+Updating learning rate to 4.048376602284338e-09
+        iters: 100, epoch: 100 | loss: 0.0648886
+        speed: 1.9200s/iter; left time: 2267.4932s
+        iters: 200, epoch: 100 | loss: 0.0582486
+        speed: 0.3692s/iter; left time: 399.0562s
+        iters: 300, epoch: 100 | loss: 0.0839426
+        speed: 0.3704s/iter; left time: 363.3955s
+        iters: 400, epoch: 100 | loss: 0.0652523
+        speed: 0.3691s/iter; left time: 325.1764s
+        iters: 500, epoch: 100 | loss: 0.0631756
+        speed: 0.3693s/iter; left time: 288.4206s
+        iters: 600, epoch: 100 | loss: 0.0770826
+        speed: 0.3698s/iter; left time: 251.8508s
+        iters: 700, epoch: 100 | loss: 0.0731315
+        speed: 0.3690s/iter; left time: 214.3722s
+        iters: 800, epoch: 100 | loss: 0.0869549
+        speed: 0.3693s/iter; left time: 177.6390s
+        iters: 900, epoch: 100 | loss: 0.0615681
+        speed: 0.3697s/iter; left time: 140.8706s
+        iters: 1000, epoch: 100 | loss: 0.0534805
+        speed: 0.3693s/iter; left time: 103.7799s
+        iters: 1100, epoch: 100 | loss: 0.0691670
+        speed: 0.3733s/iter; left time: 67.5701s
+        iters: 1200, epoch: 100 | loss: 0.0589030
+        speed: 0.3694s/iter; left time: 29.9177s
+Epoch: 100 cost time: 489.9506645202637
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.092497 s  ( 21.0%)
+Forward pass:       0.141770 s  ( 32.2%)
+Backward+Optimizer: 0.205650 s  ( 46.7%)
+------------------------------------------------
+Epoch: 100, Steps: 1280 | Train Loss: 0.0741346 Vali Loss: 0.1472478 Test Loss: 0.1043690
+EarlyStopping counter: 98 out of 100
+Updating learning rate to 3.643538942055904e-09
+epoch is 99
+_______________________________________GPU Information_____________________________________
+Wed Apr 15 08:59:26 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GT 1030       WDDM  |   00000000:01:00.0  On |                  N/A |
+| 50%   39C    P8             N/A /   30W |    1066MiB /   4096MiB |     21%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      2188    C+G   ..._x64__8wekyb3d8bbwe\M365Copilot.exe      N/A      |
+|    0   N/A  N/A      6056    C+G   ...ejd91yc\AdobeNotificationClient.exe      N/A      |
+|    0   N/A  N/A      6712    C+G   ...siveControlPanel\SystemSettings.exe      N/A      |
+|    0   N/A  N/A      8868    C+G   C:\Windows\explorer.exe                     N/A      |
+|    0   N/A  N/A      9864    C+G   C:\Windows\explorer.exe                     N/A      |
+|    0   N/A  N/A     10196    C+G   ...cw5n1h2txyewy\CrossDeviceResume.exe      N/A      |
+|    0   N/A  N/A     10880    C+G   D:\software\todesk\ToDesk.exe               N/A      |
+|    0   N/A  N/A     11320    C+G   ...nt.CBS_cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A     11328    C+G   ...2txyewy\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A     11576    C+G   ...s\System32\ApplicationFrameHost.exe      N/A      |
+|    0   N/A  N/A     12956    C+G   ...n\146.0.3856.109\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A     13528    C+G   ...ekyb3d8bbwe\PhoneExperienceHost.exe      N/A      |
+|    0   N/A  N/A     15032    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A     15388    C+G   C:\Windows\System32\ShellHost.exe           N/A      |
+|    0   N/A  N/A     18208    C+G   ...n\146.0.3856.109\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A     18284    C+G   ...t.LockApp_cw5n1h2txyewy\LockApp.exe      N/A      |
+|    0   N/A  N/A     18768    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A     20268    C+G   ...les\Microsoft OneDrive\OneDrive.exe      N/A      |
+|    0   N/A  N/A     20676    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A     21128    C+G   ...\VC code\Microsoft VS Code\Code.exe      N/A      |
+|    0   N/A  N/A     22892    C+G   ...3542\office6\promecefpluginhost.exe      N/A      |
++-----------------------------------------------------------------------------------------+
+
+_______________________________________Efficiency and Running Time_____________________________________
+| Metric                                   |                Value |
+--------------------------------------------------------------------------------------------------------
+| Average training time per epoch          |             598.9109 seconds |
+| RAM before                               |               195.66 MB |
+| RAM after                                |               181.25 MB |
+| RAM usage (After -Before) per epoch      |               -14.41 MB |
+| Average memory usage                     |               175.91 MB |
+| Average GPU memory usage                 |              1103.97 MB |
+
+_______________________________________CPU Information_____________________________________
+| Metric                                   |                Value |
+--------------------------------------------------------------------------------------------------------
+| Physical cores                           |                   10 |
+| Total cores                              |                   16 |
+| Total CPU Usage                          |                 2.00 % |
+--------------------------------------------------------------------------------------------------------
+_______________________________________GPU Memory (Peak/Reserved)_____________________________________
+CUDA not available.
+--------------------------------------------------------------------------------------------------------
+_______________________________________Overall Wall-Clock Breakdown (Per-step Avg)_____________________
+| Data loader                              |   0.092497 s |   21.03% |
+| Forward pass                             |   0.141770 s |   32.23% |
+| Backward+Optimizer                       |   0.205650 s |   46.75% |
+--------------------------------------------------------------------------------------------------------
+>>>>>>>testing : long_term_forecast_exchange_test_Times2D_exchange_rate_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 11376
+mse:0.08212868124246597, mae:0.19821316003799438, rse:0.2178565263748169
+_______________________________________Inference-Time Results__________________________________________
+| Avg latency per batch (forward only)                    |     0.149435 s |
+| p50 latency per batch                                   |     0.148251 s |
+| p95 latency per batch                                   |     0.161454 s |
+| Throughput (samples/sec)                                |       214.14 |
+--------------------------------------------------------------------------------------------------------
+Use CPU
+>>>>>>>start training : long_term_forecast_exchange_test_Times2D_exchange_rate_ftM_sl96_ll48_pl96_dm64_nh8_el2_dl1_df64_fc1_ebtimeF_dtTrue_test_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 40960
+val 5320
+test 11376
+RAM before 1034.1328125
+        iters: 100, epoch: 1 | loss: 0.2259102
+        speed: 0.5236s/iter; left time: 66973.3753s
+        iters: 200, epoch: 1 | loss: 0.1495153
+        speed: 0.3719s/iter; left time: 47531.4376s
+        iters: 300, epoch: 1 | loss: 0.2596163
+        speed: 0.3705s/iter; left time: 47311.7471s
+        iters: 400, epoch: 1 | loss: 0.1475049
+        speed: 0.3711s/iter; left time: 47354.6190s
+        iters: 500, epoch: 1 | loss: 0.1983591
+        speed: 0.3715s/iter; left time: 47363.7255s
+        iters: 600, epoch: 1 | loss: 0.1624421
+        speed: 0.3715s/iter; left time: 47327.6297s
+        iters: 700, epoch: 1 | loss: 0.2038927
+        speed: 0.3718s/iter; left time: 47324.6314s
+        iters: 800, epoch: 1 | loss: 0.1604119
+        speed: 0.3719s/iter; left time: 47308.7711s
+        iters: 900, epoch: 1 | loss: 0.2480394
+        speed: 0.3720s/iter; left time: 47276.9823s
+        iters: 1000, epoch: 1 | loss: 0.1381950
+        speed: 0.3716s/iter; left time: 47197.0572s
+        iters: 1100, epoch: 1 | loss: 0.1218857
+        speed: 0.3719s/iter; left time: 47191.8264s
+        iters: 1200, epoch: 1 | loss: 0.1988168
+        speed: 0.3706s/iter; left time: 46991.9390s
+Epoch: 1 cost time: 492.24620270729065
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.001028 s  (  0.3%)
+Forward pass:       0.153075 s  ( 41.4%)
+Backward+Optimizer: 0.215587 s  ( 58.3%)
+------------------------------------------------
+Epoch: 1, Steps: 1280 | Train Loss: 0.1758264 Vali Loss: 0.1463945 Test Loss: 0.0919595
+Validation loss decreased (inf --> 0.146394).  Saving model ...
+Updating learning rate to 0.0001
+        iters: 100, epoch: 2 | loss: 0.1206199
+        speed: 1.9325s/iter; left time: 244697.1236s
+        iters: 200, epoch: 2 | loss: 0.1086589
+        speed: 0.3716s/iter; left time: 47011.8222s
+        iters: 300, epoch: 2 | loss: 0.1075207
+        speed: 0.3708s/iter; left time: 46881.0586s
+        iters: 400, epoch: 2 | loss: 0.1220609
+        speed: 0.3714s/iter; left time: 46915.6244s
+        iters: 500, epoch: 2 | loss: 0.1135957
+        speed: 0.3718s/iter; left time: 46929.9023s
+        iters: 600, epoch: 2 | loss: 0.0851350
+        speed: 0.3712s/iter; left time: 46810.7245s
+        iters: 700, epoch: 2 | loss: 0.1034783
+        speed: 0.3712s/iter; left time: 46780.7428s
+        iters: 800, epoch: 2 | loss: 0.1045206
+        speed: 0.3717s/iter; left time: 46806.3978s
+        iters: 900, epoch: 2 | loss: 0.0804338
+        speed: 0.3877s/iter; left time: 48775.5742s
+        iters: 1000, epoch: 2 | loss: 0.1023209
+        speed: 0.3791s/iter; left time: 47658.9752s
+        iters: 1100, epoch: 2 | loss: 0.1209823
+        speed: 0.3708s/iter; left time: 46579.0909s
+        iters: 1200, epoch: 2 | loss: 0.1208474
+        speed: 0.3745s/iter; left time: 47004.2526s
+Epoch: 2 cost time: 494.7146623134613
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.050329 s  ( 12.0%)
+Forward pass:       0.153238 s  ( 36.5%)
+Backward+Optimizer: 0.216403 s  ( 51.5%)
+------------------------------------------------
+Epoch: 2, Steps: 1280 | Train Loss: 0.1232274 Vali Loss: 0.1320983 Test Loss: 0.0818152
+Validation loss decreased (0.146394 --> 0.132098).  Saving model ...
+Updating learning rate to 0.0001
+        iters: 100, epoch: 3 | loss: 0.1257650
+        speed: 1.9328s/iter; left time: 242263.2843s
+        iters: 200, epoch: 3 | loss: 0.1034217
+        speed: 0.3710s/iter; left time: 46467.2882s
+        iters: 300, epoch: 3 | loss: 0.1884065
+        speed: 0.3710s/iter; left time: 46431.7278s
+        iters: 400, epoch: 3 | loss: 0.1064561
+        speed: 0.3705s/iter; left time: 46327.1175s
+        iters: 500, epoch: 3 | loss: 0.1042451
+        speed: 0.3707s/iter; left time: 46318.5020s
+        iters: 600, epoch: 3 | loss: 0.1173326
+        speed: 0.3702s/iter; left time: 46212.1667s
+        iters: 700, epoch: 3 | loss: 0.0999197
+        speed: 0.3713s/iter; left time: 46316.2656s
+        iters: 800, epoch: 3 | loss: 0.1012578
+        speed: 0.3707s/iter; left time: 46199.3377s
+        iters: 900, epoch: 3 | loss: 0.0884658
+        speed: 0.3706s/iter; left time: 46150.0852s
+        iters: 1000, epoch: 3 | loss: 0.1104709
+        speed: 0.3714s/iter; left time: 46214.3180s
+        iters: 1100, epoch: 3 | loss: 0.1553152
+        speed: 0.3708s/iter; left time: 46104.4178s
+        iters: 1200, epoch: 3 | loss: 0.1033547
+        speed: 0.3703s/iter; left time: 46008.6736s
+Epoch: 3 cost time: 491.2759602069855
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.066795 s  ( 15.3%)
+Forward pass:       0.152785 s  ( 35.1%)
+Backward+Optimizer: 0.216325 s  ( 49.6%)
+------------------------------------------------
+Epoch: 3, Steps: 1280 | Train Loss: 0.1163494 Vali Loss: 0.1416816 Test Loss: 0.0865551
+EarlyStopping counter: 1 out of 100
+Updating learning rate to 0.0001
+        iters: 100, epoch: 4 | loss: 0.1357762
+        speed: 1.9319s/iter; left time: 239673.8000s
+        iters: 200, epoch: 4 | loss: 0.0687220
+        speed: 0.3705s/iter; left time: 45933.7297s
+        iters: 300, epoch: 4 | loss: 0.1511461
+        speed: 0.3705s/iter; left time: 45892.7542s
+        iters: 400, epoch: 4 | loss: 0.1494261
+        speed: 0.3709s/iter; left time: 45900.4659s
+        iters: 500, epoch: 4 | loss: 0.0976795
+        speed: 0.3711s/iter; left time: 45888.2929s
+        iters: 600, epoch: 4 | loss: 0.0840414
+        speed: 0.3714s/iter; left time: 45885.8176s
+        iters: 700, epoch: 4 | loss: 0.1030312
+        speed: 0.3719s/iter; left time: 45920.6454s
+        iters: 800, epoch: 4 | loss: 0.0746447
+        speed: 0.3715s/iter; left time: 45825.1358s
+        iters: 900, epoch: 4 | loss: 0.0894240
+        speed: 0.3707s/iter; left time: 45698.2720s
+        iters: 1000, epoch: 4 | loss: 0.0930846
+        speed: 0.3713s/iter; left time: 45733.4084s
+        iters: 1100, epoch: 4 | loss: 0.1134810
+        speed: 0.3711s/iter; left time: 45669.8731s
+        iters: 1200, epoch: 4 | loss: 0.0886245
+        speed: 0.3700s/iter; left time: 45494.5325s
+Epoch: 4 cost time: 491.78859090805054
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.075031 s  ( 16.9%)
+Forward pass:       0.152732 s  ( 34.4%)
+Backward+Optimizer: 0.216177 s  ( 48.7%)
+------------------------------------------------
+Epoch: 4, Steps: 1280 | Train Loss: 0.1066808 Vali Loss: 0.1494126 Test Loss: 0.0906662
+EarlyStopping counter: 2 out of 100
+Updating learning rate to 9e-05
+        iters: 100, epoch: 5 | loss: 0.1081418
+        speed: 1.9320s/iter; left time: 237215.2851s
+        iters: 200, epoch: 5 | loss: 0.0787076
+        speed: 0.3723s/iter; left time: 45672.9327s
+        iters: 300, epoch: 5 | loss: 0.0980134
+        speed: 0.3713s/iter; left time: 45511.0431s
+        iters: 400, epoch: 5 | loss: 0.1167792
+        speed: 0.3715s/iter; left time: 45503.8613s
+        iters: 500, epoch: 5 | loss: 0.1254299
+        speed: 0.3711s/iter; left time: 45421.1932s
+        iters: 600, epoch: 5 | loss: 0.1308091
+        speed: 0.3713s/iter; left time: 45398.7186s
+        iters: 700, epoch: 5 | loss: 0.0850928
+        speed: 0.3707s/iter; left time: 45295.4265s
+        iters: 800, epoch: 5 | loss: 0.0859757
+        speed: 0.3720s/iter; left time: 45408.4132s
+        iters: 900, epoch: 5 | loss: 0.0747508
+        speed: 0.3701s/iter; left time: 45151.0532s
+        iters: 1000, epoch: 5 | loss: 0.1103013
+        speed: 0.3720s/iter; left time: 45344.5387s
+        iters: 1100, epoch: 5 | loss: 0.0738799
+        speed: 0.3710s/iter; left time: 45179.8171s
+        iters: 1200, epoch: 5 | loss: 0.0904442
+        speed: 0.3713s/iter; left time: 45184.6379s
+Epoch: 5 cost time: 491.8603298664093
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.079961 s  ( 17.8%)
+Forward pass:       0.152688 s  ( 34.0%)
+Backward+Optimizer: 0.216125 s  ( 48.2%)
+------------------------------------------------
+Epoch: 5, Steps: 1280 | Train Loss: 0.0980155 Vali Loss: 0.1479475 Test Loss: 0.0943672
+EarlyStopping counter: 3 out of 100
+Updating learning rate to 8.1e-05
+        iters: 100, epoch: 6 | loss: 0.0802813
+        speed: 1.9286s/iter; left time: 234326.4817s
+        iters: 200, epoch: 6 | loss: 0.0667850
+        speed: 0.3716s/iter; left time: 45109.3343s
+        iters: 300, epoch: 6 | loss: 0.0853272
+        speed: 0.3709s/iter; left time: 44985.9615s
+        iters: 400, epoch: 6 | loss: 0.0716428
+        speed: 0.3718s/iter; left time: 45059.9425s
+        iters: 500, epoch: 6 | loss: 0.0937580
+        speed: 0.3714s/iter; left time: 44982.6448s
+        iters: 600, epoch: 6 | loss: 0.1242052
+        speed: 0.3713s/iter; left time: 44928.3015s
+        iters: 700, epoch: 6 | loss: 0.0952534
+        speed: 0.3710s/iter; left time: 44859.0527s
+        iters: 800, epoch: 6 | loss: 0.1098385
+        speed: 0.3716s/iter; left time: 44887.6039s
+        iters: 900, epoch: 6 | loss: 0.0868621
+        speed: 0.3766s/iter; left time: 45454.7590s
+        iters: 1000, epoch: 6 | loss: 0.1010582
+        speed: 0.3713s/iter; left time: 44778.1934s
+        iters: 1100, epoch: 6 | loss: 0.0805782
+        speed: 0.3706s/iter; left time: 44652.0470s
+        iters: 1200, epoch: 6 | loss: 0.0727963
+        speed: 0.3703s/iter; left time: 44583.5616s
+Epoch: 6 cost time: 492.2780020236969
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.083215 s  ( 18.4%)
+Forward pass:       0.152687 s  ( 33.8%)
+Backward+Optimizer: 0.216125 s  ( 47.8%)
+------------------------------------------------
+Epoch: 6, Steps: 1280 | Train Loss: 0.0910987 Vali Loss: 0.1441930 Test Loss: 0.1003350
+EarlyStopping counter: 4 out of 100
+Updating learning rate to 7.290000000000001e-05
+        iters: 100, epoch: 7 | loss: 0.0880488
+        speed: 1.9294s/iter; left time: 231952.3578s
+        iters: 200, epoch: 7 | loss: 0.0711270
+        speed: 0.3710s/iter; left time: 44566.5955s
+        iters: 300, epoch: 7 | loss: 0.0960259
+        speed: 0.3704s/iter; left time: 44455.9083s
+        iters: 400, epoch: 7 | loss: 0.0612356
+        speed: 0.3718s/iter; left time: 44590.5692s
+        iters: 500, epoch: 7 | loss: 0.1337509
+        speed: 0.3701s/iter; left time: 44341.3753s
+        iters: 600, epoch: 7 | loss: 0.0965139
+        speed: 0.3711s/iter; left time: 44422.9286s
+        iters: 700, epoch: 7 | loss: 0.0658808
+        speed: 0.3724s/iter; left time: 44543.0547s
+        iters: 800, epoch: 7 | loss: 0.0883984
+        speed: 0.3723s/iter; left time: 44494.6848s
+        iters: 900, epoch: 7 | loss: 0.0601312
+        speed: 0.3702s/iter; left time: 44206.5547s
+        iters: 1000, epoch: 7 | loss: 0.0968177
+        speed: 0.3715s/iter; left time: 44327.1238s
+        iters: 1100, epoch: 7 | loss: 0.0819772
+        speed: 0.3713s/iter; left time: 44271.3875s
+        iters: 1200, epoch: 7 | loss: 0.0838769
+        speed: 0.3709s/iter; left time: 44176.5392s
+Epoch: 7 cost time: 491.7635359764099
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.085545 s  ( 18.8%)
+Forward pass:       0.152613 s  ( 33.6%)
+Backward+Optimizer: 0.216139 s  ( 47.6%)
+------------------------------------------------
+Epoch: 7, Steps: 1280 | Train Loss: 0.0846471 Vali Loss: 0.1480940 Test Loss: 0.1027050
+EarlyStopping counter: 5 out of 100
+Updating learning rate to 6.561e-05
+        iters: 100, epoch: 8 | loss: 0.0752728
+        speed: 1.9330s/iter; left time: 229910.0914s
+        iters: 200, epoch: 8 | loss: 0.0600294
+        speed: 0.3723s/iter; left time: 44245.3716s
+        iters: 300, epoch: 8 | loss: 0.0477382
+        speed: 0.3710s/iter; left time: 44050.1532s
+        iters: 400, epoch: 8 | loss: 0.1747431
+        speed: 0.3716s/iter; left time: 44082.6444s
+        iters: 500, epoch: 8 | loss: 0.0518506
+        speed: 0.3711s/iter; left time: 43995.4125s
+        iters: 600, epoch: 8 | loss: 0.0714797
+        speed: 0.3712s/iter; left time: 43969.8720s
+        iters: 700, epoch: 8 | loss: 0.1040495
+        speed: 0.3712s/iter; left time: 43922.4365s
+        iters: 800, epoch: 8 | loss: 0.0715190
+        speed: 0.3703s/iter; left time: 43790.5375s
+        iters: 900, epoch: 8 | loss: 0.0756529
+        speed: 0.3926s/iter; left time: 46386.3453s
+        iters: 1000, epoch: 8 | loss: 0.0863227
+        speed: 0.3718s/iter; left time: 43882.0493s
+        iters: 1100, epoch: 8 | loss: 0.0743375
+        speed: 0.3718s/iter; left time: 43851.9300s
+        iters: 1200, epoch: 8 | loss: 0.0694450
+        speed: 0.3716s/iter; left time: 43783.9095s
+Epoch: 8 cost time: 494.1781268119812
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.087310 s  ( 19.1%)
+Forward pass:       0.152693 s  ( 33.5%)
+Backward+Optimizer: 0.216247 s  ( 47.4%)
+------------------------------------------------
+Epoch: 8, Steps: 1280 | Train Loss: 0.0802853 Vali Loss: 0.1503529 Test Loss: 0.1051851
+EarlyStopping counter: 6 out of 100
+Updating learning rate to 5.904900000000001e-05
+        iters: 100, epoch: 9 | loss: 0.0774554
+        speed: 1.9308s/iter; left time: 227176.4321s
+        iters: 200, epoch: 9 | loss: 0.0843485
+        speed: 0.3730s/iter; left time: 43853.4460s
+        iters: 300, epoch: 9 | loss: 0.0598619
+        speed: 0.3721s/iter; left time: 43706.9262s
+        iters: 400, epoch: 9 | loss: 0.0805407
+        speed: 0.3724s/iter; left time: 43703.2931s
+        iters: 500, epoch: 9 | loss: 0.0563771
+        speed: 0.3716s/iter; left time: 43577.4028s
+        iters: 600, epoch: 9 | loss: 0.0963050
+        speed: 0.3720s/iter; left time: 43579.8252s
+        iters: 700, epoch: 9 | loss: 0.0868083
+        speed: 0.3719s/iter; left time: 43537.7582s
+        iters: 800, epoch: 9 | loss: 0.0648980
+        speed: 0.3716s/iter; left time: 43465.7110s
+        iters: 900, epoch: 9 | loss: 0.0666447
+        speed: 0.3721s/iter; left time: 43479.6735s
+        iters: 1000, epoch: 9 | loss: 0.0744504
+        speed: 0.3733s/iter; left time: 43584.9866s
+        iters: 1100, epoch: 9 | loss: 0.0789761
+        speed: 0.3722s/iter; left time: 43421.6923s
+        iters: 1200, epoch: 9 | loss: 0.0658112
+        speed: 0.3720s/iter; left time: 43359.3587s
+Epoch: 9 cost time: 492.8416407108307
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.088678 s  ( 19.4%)
+Forward pass:       0.152783 s  ( 33.4%)
+Backward+Optimizer: 0.216192 s  ( 47.2%)
+------------------------------------------------
+Epoch: 9, Steps: 1280 | Train Loss: 0.0753235 Vali Loss: 0.1504786 Test Loss: 0.1118872
+EarlyStopping counter: 7 out of 100
+Updating learning rate to 5.3144100000000005e-05
+        iters: 100, epoch: 10 | loss: 0.0611275
+        speed: 1.9312s/iter; left time: 224755.3802s
+        iters: 200, epoch: 10 | loss: 0.0723173
+        speed: 0.3731s/iter; left time: 43389.9855s
+        iters: 300, epoch: 10 | loss: 0.1202570
+        speed: 0.3725s/iter; left time: 43275.7522s
+        iters: 400, epoch: 10 | loss: 0.0623013
+        speed: 0.3733s/iter; left time: 43335.7589s
+        iters: 500, epoch: 10 | loss: 0.0578632
+        speed: 0.3721s/iter; left time: 43161.7224s
+        iters: 600, epoch: 10 | loss: 0.0667277
+        speed: 0.3722s/iter; left time: 43128.1366s
+        iters: 700, epoch: 10 | loss: 0.0687033
+        speed: 0.3720s/iter; left time: 43074.1974s
+        iters: 800, epoch: 10 | loss: 0.0749687
+        speed: 0.3719s/iter; left time: 43022.6658s
+        iters: 900, epoch: 10 | loss: 0.0662489
+        speed: 0.3730s/iter; left time: 43106.0735s
+        iters: 1000, epoch: 10 | loss: 0.0500222
+        speed: 0.3731s/iter; left time: 43084.1205s
+        iters: 1100, epoch: 10 | loss: 0.0561855
+        speed: 0.3729s/iter; left time: 43023.0625s
+        iters: 1200, epoch: 10 | loss: 0.0673231
+        speed: 0.3720s/iter; left time: 42883.3387s
+Epoch: 10 cost time: 493.3528208732605
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.089776 s  ( 19.6%)
+Forward pass:       0.152833 s  ( 33.3%)
+Backward+Optimizer: 0.216202 s  ( 47.1%)
+------------------------------------------------
+Epoch: 10, Steps: 1280 | Train Loss: 0.0711129 Vali Loss: 0.1572955 Test Loss: 0.1180177
+EarlyStopping counter: 8 out of 100
+Updating learning rate to 4.782969000000001e-05
+        iters: 100, epoch: 11 | loss: 0.1035685
+        speed: 1.5593s/iter; left time: 179478.1746s
+        iters: 200, epoch: 11 | loss: 0.0706972
+        speed: 0.2072s/iter; left time: 23824.9568s
+        iters: 300, epoch: 11 | loss: 0.0629779
+        speed: 0.2618s/iter; left time: 30080.3480s
+        iters: 400, epoch: 11 | loss: 0.0642806
+        speed: 0.2758s/iter; left time: 31661.0444s
+        iters: 500, epoch: 11 | loss: 0.0785258
+        speed: 0.2249s/iter; left time: 25798.4517s
+        iters: 600, epoch: 11 | loss: 0.0782000
+        speed: 0.2301s/iter; left time: 26373.9732s
+        iters: 700, epoch: 11 | loss: 0.0643885
+        speed: 0.2365s/iter; left time: 27078.1580s
+        iters: 800, epoch: 11 | loss: 0.0616885
+        speed: 0.3198s/iter; left time: 36581.8187s
+        iters: 900, epoch: 11 | loss: 0.0954027
+        speed: 0.4440s/iter; left time: 50749.2525s
+        iters: 1000, epoch: 11 | loss: 0.0469650
+        speed: 0.4361s/iter; left time: 49802.9291s
+        iters: 1100, epoch: 11 | loss: 0.0448474
+        speed: 0.4009s/iter; left time: 45745.5617s
+        iters: 1200, epoch: 11 | loss: 0.0658244
+        speed: 0.2422s/iter; left time: 27611.3235s
+Epoch: 11 cost time: 386.3405327796936
+---- Wall-clock (this epoch, per-step avg) ----
+Data loader:        0.089171 s  ( 19.8%)
+Forward pass:       0.147775 s  ( 32.8%)
+Backward+Optimizer: 0.213449 s  ( 47.4%)
+------------------------------------------------

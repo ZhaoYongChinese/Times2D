@@ -1,0 +1,20 @@
+# ETT数据集
+sh ./scripts/Times2D/longTerm/Times2D_ETTh1.sh
+sh ./scripts/Times2D/longTerm/Times2D_ETTh2.sh
+sh ./scripts/Times2D/longTerm/Times2D_ETTm1.sh
+sh ./scripts/Times2D/longTerm/Times2D_ETTm2.sh
+
+# 汇率数据集
+sh ./scripts/Times2D/longTerm/Times2D_exchange_rate.sh
+
+# 太阳能数据集
+sh ./scripts/Times2D/longTerm/Times2D_solar.sh
+
+# 疾病监测数据集
+sh ./scripts/Times2D/longTerm/Times2D_national_illness.sh
+
+# 气象数据集
+sh ./scripts/Times2D/longTerm/Times2D_weather.sh
+
+# 交通流量数据集
+sh ./scripts/Times2D/longTerm/Times2D_traffic.sh

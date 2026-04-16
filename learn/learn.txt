@@ -21,3 +21,11 @@ Times2D的结构：
 PDB，周期性分解模块，捕捉短期与长期的依赖关系
 FSDH，一阶与二阶导数热力图，突出数据中的剧烈变化与转折点
 AFB，聚合预测模块，整合PDB和FSDH的输出
+
+测试：
+长序列预测exchange rate
+模型：Times2D和PatchTST
+预测长度：Yearly=6
+短序列预测M4
+模型：Times2D和PatchTST
+预测长度：H = 96
